@@ -66,7 +66,7 @@ The install documentation will illustrate the following steps:
 
 First you need to fork this project on GitHub.
 
-Be sure to have [defined your `$GOPATH` environment variable](https://github.com/golang/go/wiki/GOPATH).
+Be sure to have [defined your `$GOPATH` environment variable](https://go.dev/wiki/GOPATH#gopath-variable).
 
 Create a path that corresponds to the go import paths of Podman: `mkdir -p $GOPATH/src/github.com/containers`.
 
@@ -119,7 +119,7 @@ COMMANDS:
      cp               Copy files/folders between a container and the local filesystem
 ```
 
-Well, you can now create your own branch, apply changes on it, and then submitting your pull request.
+Well, you can now create your own branch, apply changes on it, and then submit your pull request.
 
 For further reading about branching [you can read this document](https://herve.beraud.io/containers/linux/podman/isolate/environment/2019/02/06/how-to-hack-on-podman.html).
 
